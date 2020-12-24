@@ -41,3 +41,5 @@ options.forEach(option => select.appendChild(option));
 body.appendChild(select);
 body.appendChild(container);
 
+select.selectedIndex = options.length;
+new P5(Canvas[options.length.toString()], container);
