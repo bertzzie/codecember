@@ -11,6 +11,11 @@ module.exports = {
     port: 9000,
     open: true,
   },
+  resolve: {
+    alias: {
+      fonts: path.resolve(__dirname, 'src/fonts'),
+    },
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
@@ -26,6 +31,10 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(ttf|otf)$/i,
+        type: 'asset/resource',
       },
     ],
   },

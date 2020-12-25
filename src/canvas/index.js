@@ -3,7 +3,7 @@ import Two from './2';
 import Three from './3';
 import Four from './4';
 import Five from './5';
-import XMas from './xmas';
+import Six from './6';
 
 export default {
   '1': One,
@@ -11,5 +11,5 @@ export default {
   '3': Three,
   '4': Four,
   '5': Five,
-  '6': XMas,
+  '6': Six,
 };
