@@ -5,6 +5,7 @@ import Four from './4';
 import Five from './5';
 import Six from './6';
 import Seven from './7';
+import Eight from './8';
 
 export default {
   '1': One,
@@ -14,4 +15,5 @@ export default {
   '5': Five,
   '6': Six,
   '7': Seven,
+  '8': Eight,
 };
